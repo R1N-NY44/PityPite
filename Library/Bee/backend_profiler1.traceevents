@@ -1,0 +1,555 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687009597214548, "dur":1162, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597215716, "dur":63, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687009597215788, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687009597215807, "dur":286, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687009597216112, "dur":481, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597216594, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480236, "dur":240, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480476, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480483, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480485, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480490, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480492, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480497, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480499, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480503, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480505, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480510, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480511, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480516, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480517, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480521, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480523, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480527, "dur":46, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480573, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480578, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480580, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480584, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480586, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480589, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480591, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480595, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480608, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597480614, "dur":1500, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687009597216385, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597216603, "dur":3980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597220584, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1687009597220799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597254394, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1687009597255533, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687009597255585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597255590, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687009597259182, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687009597259249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597259255, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687009597263316, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687009597263366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597263371, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687009597267847, "dur":50004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.Toonshader.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687009597317856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597317866, "dur":4548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.Toonshader.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687009597322456, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1687009597322546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597322552, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1687009597324076, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1687009597324120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597324127, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1687009597325632, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1687009597325674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597325679, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1687009597327528, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1687009597327565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687009597327571, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1687009597330159, "dur":150072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597216391, "dur":217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597216608, "dur":3968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597220583, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1687009597220788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597241758, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1687009597244908, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597244964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597244972, "dur":7125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597252141, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597252210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597252216, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597254796, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597254831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597254837, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597257480, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597257529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597257535, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597261470, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597261508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597261513, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597264784, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597264829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597264835, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597268127, "dur":83901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597352035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687009597352045, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687009597353217, "dur":127026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597216383, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597216601, "dur":3971, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597220583, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687009597220588, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597220748, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687009597220753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597221795, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687009597224410, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687009597224529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597224776, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687009597226310, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597226416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597226544, "dur":21802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597248394, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597248445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597248452, "dur":3341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597251828, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597251871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597251876, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597255506, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597255585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597255601, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597258875, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597258955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597258960, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597262833, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597262869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597262875, "dur":4285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597267220, "dur":122688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597389913, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687009597389923, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687009597391027, "dur":89211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597216460, "dur":163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597216623, "dur":3955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597220583, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687009597220767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597222419, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687009597224492, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687009597224588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597224780, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687009597226380, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597226466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597226468, "dur":26412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597252936, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597252993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597252999, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597256635, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597256672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597256676, "dur":5124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597261843, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597261893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597261898, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597266092, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597266142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597266147, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597268924, "dur":146931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597415862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687009597415871, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687009597417527, "dur":62708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597216489, "dur":142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597216631, "dur":3943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597220582, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1687009597220775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597235206, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1687009597236189, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597236237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597236241, "dur":8171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597244462, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597244544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597244550, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597247709, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597247761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597247770, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597251131, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597251184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597251189, "dur":4056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597255287, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597255328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597255333, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597258400, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597258510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597258517, "dur":3439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597261990, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597262030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597262035, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597265129, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597265164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597265168, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597268444, "dur":210807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597479257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687009597479266, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687009597480204, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1687009597480205, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597216433, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597216616, "dur":3968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597220584, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1687009597220781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597236014, "dur":7963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1687009597244076, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597244189, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597244200, "dur":6197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597250450, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597250500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597250506, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597252986, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597253135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597253144, "dur":8304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597261531, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597261594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597261601, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597264485, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597264539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597264545, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597267411, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597267476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597267482, "dur":5398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597272927, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597272985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597272997, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597277011, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597277062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597277103, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597279361, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597279414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597279462, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597280460, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597280509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597280515, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597282251, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597282298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597282305, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597284088, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597284131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597284136, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597285451, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597285514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597285520, "dur":4863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687009597290418, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687009597290457, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597290463, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687009597291752, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597291791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597291796, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597292661, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597292698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597292702, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597293836, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1687009597293874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597293879, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1687009597294712, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687009597294748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597294753, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687009597296023, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597296086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597296091, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597299587, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1687009597299711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597299717, "dur":19406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1687009597319177, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597319220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597319225, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597321633, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687009597321675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597321707, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687009597323731, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597323778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597323784, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597324856, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1687009597324923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597324927, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1687009597326936, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597326996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597327004, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687009597328587, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1687009597328641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687009597328649, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1687009597331026, "dur":149206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597216426, "dur":186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597216612, "dur":3965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597220582, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687009597220748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597222389, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687009597224389, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687009597224532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597224920, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687009597225783, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1687009597225879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597225886, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1687009597226928, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1687009597227050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597227054, "dur":16738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1687009597243850, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597243911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597243926, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597245593, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597245659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597245666, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597249739, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597249797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597249803, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597254351, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597254390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597254396, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597257072, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597257127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597257133, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597260449, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597260499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597260504, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597264274, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597264344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597264363, "dur":6207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597270613, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597270663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597270673, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597273298, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597273345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597273351, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597276628, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597276683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597276697, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597278006, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597278050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597278058, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597279777, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597279845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597279855, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597281523, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597281578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597281587, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597283996, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597284106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597284111, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597285510, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597285549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597285553, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687009597288265, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1687009597288304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597288356, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1687009597289638, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687009597289682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597289688, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687009597290688, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687009597290726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597290731, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687009597291697, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687009597291739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597291743, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687009597292504, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687009597292538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597292563, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687009597293675, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687009597293709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597293714, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687009597294497, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687009597294534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597294538, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687009597295617, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1687009597295655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597295659, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1687009597297419, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687009597298173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597298180, "dur":20201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687009597318416, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1687009597319082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597319089, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1687009597322078, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1687009597322120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597322125, "dur":7077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1687009597329252, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1687009597329470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687009597329476, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1687009597330950, "dur":149280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687009597216455, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687009597216620, "dur":3955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687009597220582, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1687009597220795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687009597244531, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1687009597246086, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687009597246148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687009597246155, "dur":3830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687009597250025, "dur":153445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687009597403475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687009597403484, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687009597404470, "dur":75769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597216484, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597216627, "dur":3958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597220585, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1687009597220760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597222160, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1687009597224431, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1687009597224528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597224790, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1687009597226274, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597226391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597226748, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597228400, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1687009597228526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597229753, "dur":11709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1687009597241516, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597241566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597241573, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597245018, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597245069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597245106, "dur":3102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597248261, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597248316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597248321, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597251687, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597251740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597251748, "dur":4106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597255898, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597255941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597255946, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597259803, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597259855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597259860, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597263543, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597263585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597263591, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597266583, "dur":53353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597319940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597319948, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687009597321727, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level5.resS" }}
+,{ "pid":12345, "tid":9, "ts":1687009597321767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597321772, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level5.resS" }}
+,{ "pid":12345, "tid":9, "ts":1687009597322914, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1687009597322957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597322962, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1687009597324351, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1687009597324394, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597324404, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1687009597326503, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1687009597326546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597326552, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1687009597327914, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1687009597327960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687009597327967, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1687009597329355, "dur":150882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597216519, "dur":115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597216634, "dur":3946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597220583, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1687009597220787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597242846, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1687009597245569, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597245683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597245691, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597249403, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597249448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597249457, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597253123, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597253231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597253236, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597256222, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597256262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597256266, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597259741, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597259795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597259801, "dur":4041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597263875, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597263915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597263920, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597266888, "dur":95747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597362643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687009597362655, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687009597363837, "dur":116401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597216554, "dur":84, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597216638, "dur":3941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597220583, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687009597220768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597222489, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687009597224509, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687009597224595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597224741, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687009597226094, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1687009597226183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597226190, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1687009597227471, "dur":706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity.exe" }}
+,{ "pid":12345, "tid":11, "ts":1687009597228180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597228186, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity.exe" }}
+,{ "pid":12345, "tid":11, "ts":1687009597230459, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597230489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597230619, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597231334, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597231362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597231395, "dur":13891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597245336, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597245460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597245466, "dur":4438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597249949, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597250000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597250006, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597253285, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597253330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597253335, "dur":3784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597257157, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597257196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597257202, "dur":3128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597260375, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597260420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597260426, "dur":4651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597265120, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597265158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597265163, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597268450, "dur":755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597269209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597269219, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597270449, "dur":75715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.FilmInternalUtilities.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597346169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687009597346180, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Unity.FilmInternalUtilities.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687009597347147, "dur":133100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597216573, "dur":68, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597216642, "dur":3940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597220582, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1687009597220774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597230865, "dur":4801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1687009597235699, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597235735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597235742, "dur":8429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597244216, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597244274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597244281, "dur":3864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597248196, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597248245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597248252, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597251687, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597251806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597251812, "dur":3550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597255406, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597255448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597255454, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597258641, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597258748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597258752, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597262216, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597262257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597262262, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597265978, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597266022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597266030, "dur":7562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597273636, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597273693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597273702, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597277012, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597277059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597277068, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597280329, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597280383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597280393, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597282608, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597282672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597282679, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597283905, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597283950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597283956, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597285601, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597285643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597285648, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597287097, "dur":53748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597340852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687009597340861, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoga/Documents/- University -/PitiPiy/PitiPity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687009597341821, "dur":138408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687009597483355, "dur":1381, "ph":"X", "name": "ProfilerWriteOutput" }
+,
